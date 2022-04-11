@@ -3,11 +3,8 @@ package ru.netology.entity;
 public class Location {
 
     private final String city;
-
     private final Country country;
-
     private final String street;
-
     private final int builing;
 
     public Location(String city, Country country, String street, int builing) {
